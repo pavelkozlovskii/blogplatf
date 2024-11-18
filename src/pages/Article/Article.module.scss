@@ -1,0 +1,127 @@
+.article {
+    display: grid;
+    grid-template-rows: 140px 1fr;
+    box-sizing: border-box;
+
+    padding-top: 26px;
+    margin: auto;
+
+    width: 940px;
+    height: 800px;
+    background-color: #ebeef3;
+
+    &__header {
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+
+        width: 940px;
+        height: 140px;
+        padding: 15px 14px 24px 16px;
+
+        background-color: #fff;
+
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+        }
+    }
+
+    &__content {
+        padding: 0 16px 16px 16px;
+        background-color: #ffffff;
+    }
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 20%;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-right: 20px;
+
+        &__name {
+            font-size: 18px;
+        }
+
+        &__created {
+            font-size: 12px;
+            opacity: 0.5;
+        }
+    }
+
+    &__img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    &_width {
+        /* position: relative; */
+        width: 100%;
+    }
+}
+
+.box__btns {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 85%;
+    margin-top: auto;
+    margin-left: auto;
+
+    &__delete {
+        width: 80px;
+        height: 32px;
+
+        border: 1px solid #f5222d;
+        border-radius: 5px;
+
+        color: #f5222d;
+        background-color: #ffffff;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.04);
+        }
+    }
+
+    &__edit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-size: 14px;
+
+        width: 66px;
+        height: 32px;
+
+        border: 1px solid #52c41a;
+        border-radius: 5px;
+
+        color: #52c41a;
+        background-color: #ffffff;
+
+        text-decoration: none;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.04);
+        }
+    }
+}
+
+.loader {
+    width: 170px;
+
+    margin: auto;
+    margin-top: 30px;
+}

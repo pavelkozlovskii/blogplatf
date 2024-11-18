@@ -1,0 +1,25 @@
+.not__found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 0;
+    padding: 40px 35%;
+
+    background-color: #ebeef3;
+
+    width: 380px;
+
+    &__error {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

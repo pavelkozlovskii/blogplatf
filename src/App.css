@@ -1,0 +1,9 @@
+@import './style/font.css';
+
+body {
+    font-family: 'Inter Regular', sans-serif;
+    background-color: #ebeef3;
+
+    margin: 0;
+    padding: 0;
+}
