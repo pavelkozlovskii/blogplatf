@@ -1,0 +1,32 @@
+.account-access-control-links {
+  width: 215px;
+  display: flex;
+  align-item: center;
+  justify-content: space-between;
+
+  &__link {
+    line-height: 28px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+    text-decoration: none;
+    font-color: black;
+    padding: 8px 18px;
+    background: none;
+    border: none;
+    border-radius: 5px;
+
+    &--green {
+      border: 1px solid #52c41a;
+      color: #52c41a;
+    }
+
+    &--gray {
+      border: 1px solid rgba(0, 0, 0, 0.75);
+      color: rgba(0, 0, 0, 0.75);
+    }
+
+    &--margin-left {
+      margin-left: 27px;
+    }
+  }
+}

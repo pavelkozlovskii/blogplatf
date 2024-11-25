@@ -1,0 +1,51 @@
+.sign-in {
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 21px;
+  }
+
+  &__container-input-with-error {
+    margin-bottom: 12px;
+  }
+
+  &__error-message-on-button {
+    text-align: center;
+  }
+
+  &__error-message {
+    margin: 0;
+    font-size: 14px;
+    color: #f5222d;
+    line-height: 22px;
+    margin-top: 2px;
+  }
+
+  &__subtitle {
+    margin-bottom: 2px !important;
+  }
+
+  &__input {
+    margin-bottom: 12px;
+  }
+
+  &__button {
+    margin-top: 9px;
+  }
+
+  &__have-an-account-text {
+    color: #8c8c8c;
+    text-align: center;
+    margin: 0;
+    line-height: 20px;
+    margin-top: 8px;
+  }
+
+  &__have-an-account-text > a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+}

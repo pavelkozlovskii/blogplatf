@@ -1,0 +1,81 @@
+.sign-up {
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 21px;
+  }
+
+  &__subtitle {
+    margin-bottom: 2px !important;
+  }
+
+  &__error-message {
+    margin: 0;
+    font-size: 14px;
+    color: #f5222d;
+    line-height: 22px;
+    margin-top: 2px;
+  }
+
+  &__container-input-with-error {
+    margin-bottom: 12px;
+  }
+
+  &__error-message-on-button {
+    text-align: center;
+  }
+
+  &__access-to-personal-information {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 8px;
+    border-top: 1px solid #e8e8e8;
+    margin-top: 9px;
+    margin-bottom: 21px;
+  }
+
+  &__access-to-personal-information-text {
+    line-height: 22px;
+    font-size: 14px;
+    color: #595959;
+    margin: 0;
+  }
+
+  &__access-to-personal-information-checkbox {
+    // box-sizing: border-box;
+    margin-right: 8px;
+    margin-top: 2px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+    background: url('../../assets/icons/checkbox.svg') no-repeat;
+    background-size: 16px;
+    transition: background-image 0.1s ease-out;
+  }
+
+  &__access-to-personal-information-checkbox:checked {
+    background: url('../../assets/icons/active-checkbox.svg') no-repeat;
+    background-size: 16px;
+  }
+
+  &__have-an-account-text {
+    margin-top: 8px;
+    color: #8c8c8c;
+    text-align: center;
+  }
+
+  &__have-an-account-text > a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+
+  &__input {
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,39 @@
+.edit-profile {
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 21px;
+  }
+
+  &__error-message {
+    margin: 0;
+    font-size: 14px;
+    color: #f5222d;
+    line-height: 22px;
+    margin-top: 2px;
+  }
+
+  &__successful-message-on-button {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    color: #00730c;
+    line-height: 22px;
+    margin-top: 2px;
+  }
+
+  &__container-input-with-error {
+    margin-bottom: 12px;
+  }
+
+  &__subtitle {
+    margin-bottom: 2px !important;
+  }
+
+  &__button {
+    margin-top: 9px;
+  }
+}

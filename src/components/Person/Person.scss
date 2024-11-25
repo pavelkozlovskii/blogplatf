@@ -1,0 +1,31 @@
+.person {
+  display: flex;
+  justify-content: right;
+  height: 46px;
+  align-items: center;
+
+  &__description {
+    margin-right: 12px;
+  }
+
+  &__image {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__name {
+    font-size: 18px;
+    text-align: right;
+    margin: 0;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+
+  &__date-of-publication {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+}
